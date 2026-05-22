@@ -19,8 +19,3 @@ data class MessagePageDto(
     val hasMore: Boolean = false,
 )
 
-@Serializable
-data class SendMessageRequestDto(
-    val content: String,
-    val isEncrypted: Boolean = false,
-)
